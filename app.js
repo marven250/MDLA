@@ -10,7 +10,7 @@ var appsRouter = require('./routes/applications');
 
 var app = express();
 
-app.use(cors({ origin: 'https://mdlive-app.herokuapp.com/'}))
+app.use(cors({origin: 'http://mdlive-app.herokuapp.com/'}))
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
